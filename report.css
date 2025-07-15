@@ -1,0 +1,63 @@
+
+.st-emotion-cache-1ort0lt p {
+    color: black;
+}
+/*  file uploader */
+
+.st-emotion-cache-1weic72.e1gk92lc0 {
+  padding: 20px;
+  margin-bottom: 10px;
+}
+/* upload your medical report */
+.st-emotion-cache-1weic72.e1gk92lc0 p {
+  font-size: 1.2rem !important;
+  font-weight: 600 !important;
+  color: #4a4a4a !important;  
+}
+
+.st-emotion-cache-1erivf3 {
+    background-color: white;
+    color: black;
+    border: inset;
+}
+.st-emotion-cache-c8ta4l {
+    color: black;
+    font-size: 0.875rem;
+    line-height: 1.25;}
+
+.st-emotion-cache-z8vbw2 {
+    background-color: #c7a7fe !important; 
+    border: 1px solid rgba(250, 250, 250, 0.2) !important;
+    color: black !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.38);  /* Normal shadow */
+    transition: all 0.2s ease-in-out;
+    border-radius: 8px;  /* Optional: rounded corners */
+}
+
+.st-emotion-cache-z8vbw2:hover {
+    background-color: #b491f5 !important;
+    border: 1px solid #6e44cc !important;
+    color: black !important;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.48) !important;  /* Deeper shadow on hover */
+}
+
+.st-emotion-cache-z8vbw2:active {
+    background-color: #9775e8 !important;
+    border: 1px solid #5336c9 !important;
+    color: black !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15) !important;  /* Flatter shadow on click */
+}
+
+.st-emotion-cache-z8vbw2:focus {
+    background-color: #be9cf9 !important;
+    border: 1px solid rgba(250, 250, 250, 0.2) !important;
+    color: black !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+}
+.st-emotion-cache-u88jwt {
+    background-color: transparent !important;
+    color: rgb(114 7 145) !important;
+    font-size: 1.2rem !important;
+    font-weight: 600 !important;
+}
+

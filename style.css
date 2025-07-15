@@ -1,0 +1,87 @@
+.main {
+    padding: 2rem 3rem;
+    min-height: 100vh;
+
+}
+
+/* Remove default Streamlit padding */
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 1200px;}
+
+.stApp {
+    background: #ffffff;
+    color: black;
+}
+/* Navigation Tabs Styling */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 100px;
+    background-color: #ffffff;
+    padding: 10px;
+    justify-content: center;
+    margin:  0px 0px 20px 0px;
+}
+.stTabs [data-baseweb="tab"] > div {
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    color: #495057 !important;
+    padding: 10px 25px;
+}
+ /* Content Area Styling */
+.stTabs [data-baseweb="tab-panel"] {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+
+/* Remove Streamlit branding */
+#MainMenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+header {
+    visibility: hidden;
+}
+/* Responsive Design for mobile */
+@media (max-width: 768px) {
+    .main {
+        padding: 1rem;
+    }
+    
+    .stTabs [data-baseweb="tab"] {
+        padding: 0 15px;
+        font-size: 14px;
+        height: 45px;
+    }
+    
+    .stTabs [data-baseweb="tab-panel"] {
+        padding: 1rem;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+
