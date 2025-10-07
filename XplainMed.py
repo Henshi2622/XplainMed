@@ -12,7 +12,7 @@ load_css(css_path)
 
 
 # naviagtion bar 
-tab1, tab2, tab3 = st.tabs(["Home", "Report", "Images"])
+tab1, tab2, tab3 ,tab4 = st.tabs(["Home", "Upload_Report",  "Images","Upload_Image"])
 
 with tab1:
     # Display content from Home.py
@@ -35,9 +35,10 @@ with tab3:
         exec(open("Images.py", encoding="utf-8").read())
     except Exception as e:
         st.error(f"Error loading Images.py: {e}")
-# with tab4:
-#     # Display content from Doctor_Search.py
-#     try:
-#         exec(open("Doctor_Search.py").read())
-#     except Exception as e:
-#         st.error(f"Error loading Doctor_Search.py: {e}")
+with tab4:
+    # Display content from upload_image.py
+    try:
+        exec(open("upload_image.py", encoding="utf-8").read())
+    except Exception as e:
+        st.error(f"Error loading upload_image.py: {e}")
+

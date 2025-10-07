@@ -10,7 +10,7 @@ if image_urls and diagnosis:
         st.image(url, caption=f"Related to {diagnosis} - Image {i}", use_container_width=True)
         st.code(url, language="text")
 elif diagnosis:
-    st.warning("Images not available yet. Try regenerating from the Report tab.")
+    st.warning("Images not available yet. Try regenerating from the Upload_Report tab.")
 else:
     st.markdown("""
     <div style="

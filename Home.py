@@ -29,7 +29,7 @@ with col1:
 with col2:
     st.markdown("""
     <h1 style="text-align:center; font-size: 2.8rem; margin-bottom: 0.5rem;">
-        🤖 XplainMed
+         XplainMed
     </h1>
     <h3 style="text-align:center; color: #6c63ff; margin-top: 0;">
         Understand Your Medical Report with Ease
